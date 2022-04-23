@@ -8,8 +8,8 @@ int main()
 	int i;
 
 	for (i=0; i<SAMPLE_COUNT; i++) {
-		print ("%.3d\t", i);
+		printf ("%.3d\t", i);
 	}
-	print ("\n");
-	return 0
+	printf ("\n");
+	return 0;
 }
