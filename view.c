@@ -11,8 +11,9 @@ int main()
 	for (i=0; i<SAMPLE_COUNT; i++) {
 		if (i % 8 == 0)
 			printf ("\n");
-		printf ("%d\t", i);
+		printf ("%	d\t", i);
 	}
 	printf ("\n");
+	printf ("Test Finished.\n");
 	return 0;
 }
