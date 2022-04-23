@@ -7,8 +7,11 @@ int main()
 {
 	int i;
 
+	printf ("[view.c]");
 	for (i=0; i<SAMPLE_COUNT; i++) {
-		printf ("%.3d\t", i);
+		if (i % 8 == 0)
+			printf ("\n");
+		printf ("%d\t", i);
 	}
 	printf ("\n");
 	return 0;
